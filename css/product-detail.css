@@ -1,0 +1,98 @@
+:root {
+  --coke-red: #e4002b;
+  --coke-black: #000000;
+  --coke-white: #ffffff;
+  --coke-gray: #f5f5f5;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: var(--coke-white);
+  color: var(--coke-black);
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--coke-red);
+  color: var(--coke-white);
+  padding: 1rem 2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.main-nav a {
+  color: var(--coke-white);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.product-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.product-info h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-info .price {
+  font-size: 1.5rem;
+  color: var(--coke-red);
+  font-weight: bold;
+}
+
+.product-info .desc {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: var(--coke-red);
+  color: var(--coke-white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #c90025;
+}
+
+.site-footer {
+  text-align: center;
+  background-color: var(--coke-red);
+  color: var(--coke-white);
+  padding: 1rem;
+  margin-top: 2rem;
+}
