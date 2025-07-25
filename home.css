@@ -4,6 +4,9 @@
   --coke-white: #ffffff;
   --coke-gray: #f5f5f5;
 }
+body { font-family: Arial; background: white; color: black; }
+header, footer { background: #E4002B; color: white; padding: 1em; text-align: center; }
+nav a { margin: 0 10px; color: black; }
 
 body {
   margin: 0;
@@ -68,4 +71,8 @@ body {
   text-decoration: none;
   transition: background 0.2s ease;
 }
+ .featured .product-grid{
+     display: flex;
+     justify-content: space-evenly;
+ }
 
