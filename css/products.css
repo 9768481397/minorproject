@@ -1,3 +1,19 @@
-body { font-family: Arial; background: white; color: black; }
+body { 
+    font-family: Arial;
+     background: white; 
+     color: black; 
+     min-height: 100vh;   
+     display: flex;
+     flex-direction: column; 
+    }
+
+    body > footer{
+        margin-top: auto;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 header, footer { background: #E4002B; color: white; padding: 1em; text-align: center; }
 nav a { margin: 0 10px; color: black; }
